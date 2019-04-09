@@ -1,0 +1,54 @@
+@font-face{
+font-family: Terminal;
+    src: url('assets/fonts/terminal-grotesque-webfont.woff'), url('terminal-grotesque-webfont.woff') format('woff');
+}
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+    border-bottom-color: white !important;
+    border-width: 1px !important;
+    font-family: Terminal;    
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+
+.card {
+    background: black;
+    border-radius: 0 !important;
+    font-size: 100% !important;
+    margin-bottom: 0;
+}
+
+.card-img {
+    margin-bottom: 6px;
+}
+
+p {
+ color: rgba(255,255,255,0.9);
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+
+
