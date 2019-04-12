@@ -1,6 +1,6 @@
 @font-face{
 font-family: Terminal;
-    src: url('assets/fonts/terminal-grotesque-webfont.woff'), url('terminal-grotesque-webfont.woff') format('woff');
+    src: url('assets/fonts/terminal-grotesque-webfont.woff'), url('assets/fonts/terminal-grotesque-webfont.woff') format('woff');
 }
 
 body {
