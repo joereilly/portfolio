@@ -1,6 +1,6 @@
 @font-face{
 font-family: Terminal;
-    src: url('assets/fonts/terminal-grotesque-webfont.woff'), url('assets/fonts/terminal-grotesque-webfont.woff') format('woff');
+    src: url('assets/fonts/terminal-grotesque-webfont.woff') format('woff');
 }
 
 body {
@@ -11,7 +11,8 @@ body {
 
 
 .navbar {
-    background-color: rgba(0,0,0,0.8);
+/*    background-color: rgba(0,0,0,0.8);*/
+    background-image: linear-gradient(rgba(0,0,0,0), black);
     border-bottom-color: white !important;
     border-width: 1px !important;
     font-family: Terminal;    
