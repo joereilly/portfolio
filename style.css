@@ -11,8 +11,7 @@ body {
 
 
 .navbar {
-/*    background-color: rgba(0,0,0,0.8);*/
-    background-image: linear-gradient(rgba(0,0,0,0), black);
+    background: rgba(0,0,0,0.8);
     border-bottom-color: white !important;
     border-width: 1px !important;
     font-family: Terminal;    
